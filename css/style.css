@@ -1,0 +1,80 @@
+.zbox {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: inline-block;
+  background-color: tomato;
+  transition: transform .5s;
+}
+
+.zbox.click {
+  transform: scale(1.25);
+}
+
+span.zbox:first-child {
+  margin-left: 24px;
+}
+
+[data-animal-container] {
+  border: 1px dotted darkslategrey;
+  overflow: hidden;
+}
+[data-animal-container] span {
+  margin: auto;
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 100px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+#grid-container {
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pixel {
+  height: 40px;
+  width: 60px;
+  background-color: #0021f5;
+  border: 1px solid black;
+  display: block;
+}
+
+.red-pixel {
+  background-color: #ff4664;
+}
+
+
+.even {
+  background-color: #d5ffd5;
+}
+.odd {
+  background-color: #ffffb4;
+}
+
+.animal {
+  font-weight: bold;
+  margin: 0;
+}
+
+#pokemon-images {
+  height: 96px;
+}
+
+#pokemon-rhymes {
+  font-weight: bold;
+  text-align: center;
+}
