@@ -14,3 +14,4 @@ This assignment covers the basics of JavaScript (Only problems 1-3 are currently
 * Inspecting element properties to ensure proper values are being changes
 
 File worked on: script.js
+Link to published site: https://steven-jacovitch.github.io/JavaScript_Exam_Prep/
