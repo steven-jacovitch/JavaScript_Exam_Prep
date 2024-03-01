@@ -1,14 +1,12 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=13859200)
-# SI 579 Vanilla app
+# JavaScript Exam Prep
+This assignment covers the basics of JavaScript (Only problems 1-3 are currently completed)
 
-## To Run the App
-The usual npm commands in the project root:
-- `npm install` (which should only need to be done once, after that everything is installed )
-- `npm start` will start the server so you can access the site via browser
+# What I practiced
+* Using browser developer tools on a working example to see what data is being loaded (in the 'Network' tab)
+* Importing data from external APIs using fetch requests
+* Working with time intervals
+* Using proper JavaScript syntax
+* Creating and modifying elements on a page using JavaScript
+* Inspecting element properties to ensure proper values are being changes
 
-## Files to be aware of
-There are several files you don't need to be concerned with.
-These are the ones you _should_ be
-- `/index.html` is the html served when you start the app
-- `/js` is the directory with the JavaScript files loaded by index.html
-- `/css` is the directory with the CSS files loaded by index.html
+File worked on: script.js
